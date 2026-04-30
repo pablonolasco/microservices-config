@@ -1,0 +1,27 @@
+spring:
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/companies
+    username: debuggeandoideas
+    password: udemy
+
+    hikari:
+      maximum-pool-size: 20
+      minimum-idle: 10
+      connection-timeout: 20000
+      idle-timeout: 300000
+      max-lifetime: 1800000
+      pool-name: HikariPool-CareAPI
+
+    jpa:
+      hibernate:
+        ddl-auto: none
+      open-in-view: false
+      properties:
+        hibernate:
+          format_sql: true
+          jdbc:
+            time_zone: UTC
+            #connection:
+            #provider_disables_autocommit: true
+      show-sql: true
