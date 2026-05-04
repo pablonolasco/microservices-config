@@ -1,5 +1,4 @@
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/companies
-    username: debuggeandoideas
-    password: udemy
+db:
+  url: jdbc:postgresql://localhost:5432/companies
+  username: debuggeandoideas
+  password: udemy
