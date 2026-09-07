@@ -1,4 +1,4 @@
 db:
   url: jdbc:postgresql://localhost:5432/companies
-  username: debuggeandoideas
-  password: udemy
+  username: postgres
+  password: admin123
